@@ -1,15 +1,16 @@
 <template>
-  <div class="home">
+  <div>
     <h1>这是首页</h1>
+    <HomeHeader></HomeHeader>
   </div>
 </template>
 
 <script>
-export default {
+import HomeHeader from 'HomeHeader.vue'
 
+export default {
+  components: {
+    HomeHeader
+  }
 }
 </script>
-
-<style scoped>
-
-</style>
