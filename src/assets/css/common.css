@@ -27,6 +27,7 @@ footer a p{    margin-top: 0.04rem; color: #999; font-size: 0.24rem;  }
 .hotshop-item{ margin: 0.1rem 0 1.2rem 0; }
 
 .btn{ margin-top: 0.56rem; width: 1.4rem; font-size: 0.2rem; color: #e26826; border: 1px solid #e26826; text-align: center; height: 0.48rem; line-height: 0.48rem;  }
+.btn a{ color: #e26826; }
 .snames{ font-size : 0.2rem; color: #333; }
 .classify span,.classify em{ color: #999; font-size: 0.16rem;}
 .classify em{ margin-left: 0.3rem;font-style: normal; }

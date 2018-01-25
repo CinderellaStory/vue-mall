@@ -11,27 +11,22 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
       component: home
     },
     {
       path: '/home',
-      name: 'home',
       component: home
     },
     {
       path: '/boutique',
-      name: 'boutique',
       component: boutique
     },
     {
       path: '/shop',
-      name: 'shop',
       component: shop
     },
     {
       path: '/my',
-      name: 'my',
       component: my
     }
   ]
