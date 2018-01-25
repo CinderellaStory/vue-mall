@@ -1,5 +1,5 @@
 <template>
-    <footer>
+    <footer class="white">
         <router-link v-for="item in NavData" :to="item.to">
             <i class="iconfont" :class="item.class"></i>
             <p>{{item.text}}</p>
