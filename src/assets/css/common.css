@@ -1,6 +1,13 @@
+.searchBar{    background: #fff; font-size: 0.3rem;padding-left: 0.6rem;border: none; outline: none; margin-top: 0.2rem;border-radius: 0.3rem; width: 4.8rem; height: 0.56rem; margin-left: 0.35rem; }
+header{ overflow: hidden; font-size: 0; height: 0.9rem; background: #990000;  }
+.serach { font-size: 0; position: relative; }
+.serach .icon-sousuo2{    font-size: 0.3rem; color: #666; position: absolute; left: 0.5rem;top: 0.1rem;}
+.searchBar ul li { border-radius: 2rem;height: 0.45rem; line-height: 0.45rem; color: #fff; margin-top: 0.05rem; padding: 0 0.2rem; background: #900000; display: inline-block;}
+.searchBar ul li label{ border-right: 1px solid #fff;    padding-right: 0.08rem; }
+
 .container{font-size: 0.3rem; background: #f1eded;  }
-footer{ text-align: center;bottom: 0;position: fixed; border-top: 1px solid #eee;  height: 1rem;  font-size: 0; width: 100%;z-index: 1 }
-footer a { margin: 0.14rem 0.6rem 0 0.6rem;display: inline-block;vertical-align: top; }
+footer{ text-align: center;bottom: 0;position: fixed; border-top: 1px solid #eee;  height: 1rem;  font-size: 0; width: 100%; }
+footer a { margin: 0.14rem 0.6rem;display: inline-block;vertical-align: top; }
 footer .iconfont{ color: #666; font-size: 0.4rem }
 footer a.item-active p{  color: #900000; }
 footer a.item-active i{  color: #900000; }
@@ -10,24 +17,27 @@ footer a p{    margin-top: 0.04rem; color: #999; font-size: 0.24rem;  }
 
 .list{ margin-right: 0.2rem; margin-bottom: 0.2rem;display: inline-block;width: 3.42rem;border: 1px solid #ccc; }
 .ysc{ overflow: hidden; }
-.goods-detail{padding: 0.1rem 0 0.1rem 0.1rem; font-size: 0; background: #fff;}
+.goods-detail{padding: 0.1rem; font-size: 0; background: #fff;}
 .goods-detail .goods-name{ color: #333; vertical-align: middle; }
 .list .goods-img,.goods-img img{height: 3.42rem;width: 3.42rem;}
-.goods-name p{height: 0.6rem; overflow: hidden; line-height: 0.3rem;font-size: 0.2rem;}
+.goods-name p{height: 0.74rem;    font-size: 0.26rem; overflow: hidden; line-height: 0.36rem;}
 .shop-name,.number{ display: inline-block; vertical-align: top; }
 .goods-price{ font-size: 0.12rem; color: #900000; }
-.goods-price span{font-size: 0.4rem; }
+.goods-price span{font-size: 0.4rem; letter-spacing: 0.04rem; }
 
 .hot-shop{ margin-top: .2rem; padding: 0.2rem; font-size: 0; }
 .hotshop-list{ background: #fff;margin-bottom: 0.2rem; border: 1px solid #ccc; }
-.shophot-detail{ padding:0.2rem; border-bottom: 1px solid #ccc; }
-.hotshop-name{ margin-top: 0.25rem; margin-left: 0.2rem;line-height: 0.4rem; }
+.shophot-detail{ padding:0.2rem 0.4rem;  }
+.hotshop-goods{border-top: 1px solid #ccc;}
+.hotshop-name{ margin-top: 0.2rem; margin-left: 0.2rem;line-height: 0.4rem; }
 .hotshoplogo,.hotshop-name,.btn{ display: inline-block; vertical-align: top; }
 .hotshoplogo,.hotshoplogo img{ border-radius: 50%; height: 1.2rem;width: 1.2rem; }
 .hotshop-item{ margin: 0.1rem 0 1.2rem 0; }
 
-.btn{ margin-top: 0.56rem; width: 1.4rem; font-size: 0.2rem; color: #e26826; border: 1px solid #e26826; text-align: center; height: 0.48rem; line-height: 0.48rem;  }
+.btn{ margin-top: 0.4rem; padding: 0.02rem 0.2rem; font-size: 0.2rem;  border: 1px solid #e26826; text-align: center;line-height: 0.48rem;  }
 .btn a{ color: #e26826; }
-.snames{ font-size : 0.2rem; color: #333; }
-.classify span,.classify em{ color: #999; font-size: 0.16rem;}
+.snames{ font-size : 0.28rem; color: #333;    font-weight: bold; }
+.classify span,.classify em{ color: #999; font-size: 0.2rem;}
 .classify em{ margin-left: 0.3rem;font-style: normal; }
+
+

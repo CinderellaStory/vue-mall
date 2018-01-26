@@ -1,12 +1,21 @@
 <template>
-  <div class="boutique">
-    <h1>这是精品</h1>
+  <div>
+    <!--搜索框区-->
+    <HomeHeader></HomeHeader>
+    <BoutiqueNav></BoutiqueNav>
+    <Boutcontent></Boutcontent>
   </div>
 </template>
 
 <script>
-export default {
+import HomeHeader from './HomeHeader.vue'
+import BoutiqueNav from './BoutiqueNav.vue'
+import Boutcontent from './Boutcontent.vue'
 
+export default {
+  components: {
+    HomeHeader,BoutiqueNav,Boutcontent
+  }
 }
 </script>
 

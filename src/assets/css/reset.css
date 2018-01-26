@@ -6,7 +6,7 @@ html{font-size: 16px;}
 .fr{ float: right; }
 .overflow{ overflow: hidden; }
 .white{ background: #fff; }
-body{ background: #f1eded;    letter-spacing: 0.04rem; }
+body{ background: #f1eded; font-size:0.3rem;   letter-spacing: 0.04rem; }
 h1, h2 {
   font-weight: normal;
   font-size:0.5rem;

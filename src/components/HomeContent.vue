@@ -50,7 +50,7 @@
                                 <p class="classify"><span>{{hot.Classify}}</span><em>共{{hot.GoodsNumber}}件商品</em></p>
                             </div>
                             <div class="btn fr">
-                                <a href="shopindex.html">{{hot.btn}}</a>
+                                <a href="shopindex.html">{{btn}}</a>
                             </div>
                         </div>
                         <div class="hotshop-goods">
@@ -81,6 +81,7 @@
                 more:'更多',
                 RecoText:'推荐商品',
                 HotShop:'推荐商铺',
+                btn:'进入店铺',
                 lists:[
                     {
                         ProImg:'http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg',
@@ -124,7 +125,6 @@
                         GoodsImg1:'http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg',
                         GoodsImg2:'http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg',
                         GoodsImg3:'http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg',
-                        btn:'进入店铺'
                     },
                     {
                         ShopImg:'http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg',
@@ -134,7 +134,6 @@
                         GoodsImg1:'http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg',
                         GoodsImg2:'http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg',
                         GoodsImg3:'http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg',
-                        btn:'进入店铺'
                     },
                     {
                         ShopImg:'http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg',
@@ -144,7 +143,6 @@
                         GoodsImg1:'http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg',
                         GoodsImg2:'http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg',
                         GoodsImg3:'http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg',
-                        btn:'进入店铺'
                     },
                     {
                         ShopImg:'http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg',
@@ -154,7 +152,6 @@
                         GoodsImg1:'http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg',
                         GoodsImg2:'http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg',
                         GoodsImg3:'http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg',
-                        btn:'进入店铺'
                     }
                 ]
             }
